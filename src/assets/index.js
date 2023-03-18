@@ -20,6 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from './tech/python.png';
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -30,6 +31,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import ecom from './ecom.png';
+import mern from './mern.png';
+import metube from './metube.png';
+import openai from './openai.png';
+import vercel from './vercel.png';
+
 export {
   logo,
   backend,
@@ -37,6 +44,7 @@ export {
   mobile,
   web,
   github,
+  python,
   menu,
   close,
   css,
@@ -59,4 +67,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  ecom,
+  mern,
+  openai,
+  metube,
+  vercel,
 };
