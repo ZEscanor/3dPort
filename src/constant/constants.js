@@ -7,6 +7,7 @@ import {
     typescript,
     html,
     css,
+    python,
     reactjs,
     redux,
     tailwind,
@@ -23,6 +24,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    ecom,
+    mern,
+    metube,
+    openai,
   } from "../assets";
   
   export const navLinks = [
@@ -31,8 +36,8 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -42,19 +47,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Mathematician",
+      icon: creator,
+    },
+    {
+      title: "Entrepreneur",
       icon: creator,
     },
   ];
@@ -105,13 +110,14 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
+    {
+      name: 'python',
+      icon: python,
+    },
+    
   ];
   
   const experiences = [
@@ -169,97 +175,143 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+  
+  
   
   const projects = [
+   
+   
+
     {
-      name: "Car Rent",
+      name: "LifeStyle App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A comprehensive social media website, that allows users to post, comment and send each other messages real time",
       tags: [
         {
-          name: "react",
+          name: "MongoDB",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Express",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "React",
           color: "pink-text-gradient",
         },
+        {
+          name: "Redux",
+          color: "text-indigo-400"
+        },
+        {
+          name: "Node",
+          color: "orange-text-gradient"
+        }
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: mern,
+      source_code_link: "https://github.com/ZEscanor/mernProj",
+      live_project_link: "https://memoriesmern.vercel.app/posts"
     },
+
     {
-      name: "Job IT",
+      name: "MeTube",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A platform that allows users to search and watch videos from their favorite content creators.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Axios",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Material UI",
           color: "pink-text-gradient",
         },
+      
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: metube,
+      source_code_link: "https://github.com/ZEscanor/metube",
+      live_project_link: "https://metube-three.vercel.app/"
     },
+   
     {
-      name: "Trip Guide",
+      name: "AI Image Creator",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A website that allows users to create and share completely unique pictures with the help of AI",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Vite",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "Cloudinary",
+          color: "text-indigo-400",
+        },
+        {
+          name: "MongoDB",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Node",
+          color:"text-yellow-400",
+        },
+        {
+          name: "DALLE-AI",
+          color: "text-white-400",
+        },
+      
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: openai,
+      source_code_link: "https://github.com/ZEscanor/OpenAI",
+      live_project_link: "https://ai-image-generator-pink.vercel.app"
     },
+    
+    {
+      name: "Headphone Mart",
+      description:
+        "An ecommerce shop that specializes in Headphones, which features headphone product listings and a full checkout and payment page",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Stripe",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Sanity",
+          color: "text-indigo-400"
+        },
+        {
+          name: "NextJS",
+          color: "orange-text-gradient"
+        }
+      ],
+      image: ecom,
+      source_code_link: "https://github.com/ZEscanor/e-commerce-web",
+      live_project_link: "https://e-commerce-web2.vercel.app"
+    },
+
+
+    
+
+    
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

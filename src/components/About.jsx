@@ -42,9 +42,9 @@ const About = () => {
       </h2>
     </motion.div>
     <motion.p variants={fadeIn("", "", 0.1,1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-      Lorem ipsum dolor sit amet 
-      consectetur adipisicing elit.
-       Incidunt fuga laudantium esse quo iure consectetur quaerat rerum corporis ex. Ipsa repudiandae exercitationem fuga iste ullam adipisci laboriosam beatae repellendus perspiciatis!
+    My name is Yinusa Amusa (You can call me Z). I am a Full-Stack developer who has been interested in technology since a very young age. 
+											I am always in awe how many amazing people and ideas could be brought together seamlessly by technology.
+										    I strive to think outside the box and bring cool ideas to life.
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>

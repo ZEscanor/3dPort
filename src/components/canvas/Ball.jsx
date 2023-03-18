@@ -9,10 +9,10 @@ const Ball = (props) => {
 const [decal] = useTexture([props.imgUrl]);
 
   return (
-    <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
+    <Float speed={1.5} rotationIntensity={1} floatIntensity={2}>
 <ambientLight intensity={0.25}/>
 <directionalLight position={[0,0,0.05]}/>
- <mesh castShadow receiveShadow scale={2.75}>
+ <mesh castShadow receiveShadow scale={2.5}>
    <icosahedronGeometry args={[1,1]}/>
    <meshStandardMaterial
    color="#fff8eb"
@@ -32,6 +32,7 @@ const BallCanvas = ({icon})=> {
   return (
     <Canvas
     frameLoop='demand'
+    dpr={[1, 2]}
    // camera={{position: [20 , 3 ,5], fov:25}}  
     gl = {{ preserveDrawingBuffer: true}   }           // x axis y axis z axis
     >
