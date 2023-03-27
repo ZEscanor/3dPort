@@ -14,7 +14,7 @@ import SectionWrapper from '../hoc/SectionWrapper';
 const ServiceCard = ({index, title, icon}) => {
   return (
     <p>
-     <Tilt className="xs:w-[250px] w-full">
+     <Tilt className="xs:w-[250px] max-[600px]:w-[400px] w-full">
       <motion.div variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card">
      <div options={{max: 45, scale: 1, speed:450}} 
