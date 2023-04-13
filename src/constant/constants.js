@@ -59,7 +59,7 @@ import {
       icon: creator,
     },
     {
-      title: "Entrepreneur",
+      title: "Data Scientist",
       icon: creator,
     },
   ];
@@ -117,6 +117,7 @@ import {
       name: 'python',
       icon: python,
     },
+
     
   ];
   
@@ -237,6 +238,39 @@ import {
       live_project_link: "https://metube-three.vercel.app/"
     },
    
+    
+    {
+      name: "Headphone Mart",
+      description:
+        "An ecommerce shop that specializes in Headphones, which features headphone product listings and a full checkout and payment page",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Stripe",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Sanity",
+          color: "text-indigo-400"
+        },
+        {
+          name: "NextJS",
+          color: "orange-text-gradient"
+        }
+      ],
+      image: ecom,
+      source_code_link: "https://github.com/ZEscanor/e-commerce-web",
+      live_project_link: "https://e-commerce-web2.vercel.app"
+    },
+
+
     {
       name: "AI Image Creator",
       description:
@@ -277,36 +311,6 @@ import {
       live_project_link: "https://ai-image-generator-pink.vercel.app"
     },
     
-    {
-      name: "Headphone Mart",
-      description:
-        "An ecommerce shop that specializes in Headphones, which features headphone product listings and a full checkout and payment page",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Stripe",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Redux",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Sanity",
-          color: "text-indigo-400"
-        },
-        {
-          name: "NextJS",
-          color: "orange-text-gradient"
-        }
-      ],
-      image: ecom,
-      source_code_link: "https://github.com/ZEscanor/e-commerce-web",
-      live_project_link: "https://e-commerce-web2.vercel.app"
-    },
 
 
     

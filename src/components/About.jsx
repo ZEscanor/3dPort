@@ -14,7 +14,7 @@ import SectionWrapper from '../hoc/SectionWrapper';
 const ServiceCard = ({index, title, icon}) => {
   return (
     <p>
-     <Tilt className="xs:w-[250px] max-[600px]:w-[400px] w-full">
+     <Tilt className="xs:w-[250px] max-[600px]:w-[350px] w-full">
       <motion.div variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card">
      <div options={{max: 45, scale: 1, speed:450}} 
@@ -34,17 +34,18 @@ const About = () => {
   return (
     <>
     <motion.div variants={textVariant()}>
-      <p className={styles.sectionSubText}>
-        Introduction
-      </p>
       <h2 className={styles.sectionHeadText}>
-        Overview
+        Introduction
       </h2>
     </motion.div>
     <motion.p variants={fadeIn("", "", 0.1,1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-    My name is Yinusa Amusa (You can call me Z). I am a Full-Stack developer who has been interested in technology since a very young age. 
-											I am always in awe how many amazing people and ideas could be brought together seamlessly by technology.
-										    I strive to think outside the box and bring cool ideas to life.
+    My name is Yinusa Amusa (You can call me Z). I'm a passionate Full-Stack developer and Data Scientist.
+    I recently began to switch my focus to web development and I'm excited to see where it takes me.
+    I thrive on pushing the boundaries of what is possible with technology. With a degree in Computer Science, 
+    I have a strong foundation in the fundamentals of programming and software development.
+    I'm always eager to learn new technologies and improve my skills. I'm a fast learner and I'm always ready to take on new challenges.
+    Let's collaborate and build something amazing.
+					
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>
