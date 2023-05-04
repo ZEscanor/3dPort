@@ -214,30 +214,7 @@ import {
       live_project_link: "https://memoriesmern.vercel.app/posts"
     },
 
-    {
-      name: "MeTube",
-      description:
-        "A platform that allows users to search and watch videos from their favorite content creators.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Axios",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Material UI",
-          color: "pink-text-gradient",
-        },
-      
-      ],
-      image: metube,
-      source_code_link: "https://github.com/ZEscanor/metube",
-      live_project_link: "https://metube-three.vercel.app/"
-    },
-   
+    
     
     {
       name: "Headphone Mart",
@@ -269,6 +246,31 @@ import {
       source_code_link: "https://github.com/ZEscanor/e-commerce-web",
       live_project_link: "https://e-commerce-web2.vercel.app"
     },
+
+    {
+      name: "MeTube",
+      description:
+        "A platform that allows users to search and watch videos from their favorite content creators.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Axios",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Material UI",
+          color: "pink-text-gradient",
+        },
+      
+      ],
+      image: metube,
+      source_code_link: "https://github.com/ZEscanor/metube",
+      live_project_link: "https://metube-three.vercel.app/"
+    },
+   
 
 
     {
