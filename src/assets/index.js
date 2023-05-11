@@ -36,7 +36,7 @@ import mern from './mern.png';
 import metube from './metube.png';
 import openai from './openai.png';
 import vercel from './vercel.png';
-
+import siteExtract from './siteExtract.png';
 export {
   logo,
   backend,
@@ -72,4 +72,5 @@ export {
   openai,
   metube,
   vercel,
+  siteExtract,
 };

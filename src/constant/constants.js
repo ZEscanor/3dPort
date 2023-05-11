@@ -28,6 +28,7 @@ import {
     mern,
     metube,
     openai,
+    siteExtract,
   } from "../assets";
   
   export const navLinks = [
@@ -271,6 +272,34 @@ import {
       live_project_link: "https://metube-three.vercel.app/"
     },
    
+
+    {
+      name: "Website and Text Summarizer",
+      description:
+        "A website that allows users to summarize text and websites using Open AI",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Chakra UI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Open AI",
+          color: "text-indigo-400"
+
+        },
+      ],
+      image: siteExtract,
+      source_code_link: "https://github.com/ZEscanor/SiteExtractor",
+      live_project_link: "https://site-extractor.vercel.app/"
+    },
 
 
     {
