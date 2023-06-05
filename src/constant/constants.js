@@ -302,45 +302,7 @@ import {
     },
 
 
-    {
-      name: "AI Image Creator",
-      description:
-        "A website that allows users to create and share completely unique pictures with the help of AI",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Cloudinary",
-          color: "text-indigo-400",
-        },
-        {
-          name: "MongoDB",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "Node",
-          color:"text-yellow-400",
-        },
-        {
-          name: "DALLE-AI",
-          color: "text-white-400",
-        },
-      
-      ],
-      image: openai,
-      source_code_link: "https://github.com/ZEscanor/OpenAI",
-      live_project_link: "https://ai-image-generator-pink.vercel.app"
-    },
+  
     
 
 
