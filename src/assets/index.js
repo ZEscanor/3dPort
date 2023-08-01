@@ -37,6 +37,11 @@ import metube from './metube.png';
 import openai from './openai.png';
 import vercel from './vercel.png';
 import siteExtract from './siteExtract.png';
+import Flexibble from './Flexibble.png';
+import graphql from './graphql.png';
+import nextjs from './nextjs.png';
+import firebase from './firebaselogo.png'
+import cpp from './c++.png'
 export {
   logo,
   backend,
@@ -73,4 +78,9 @@ export {
   metube,
   vercel,
   siteExtract,
+  Flexibble,
+  graphql,
+  nextjs,
+  firebase,
+  cpp,
 };

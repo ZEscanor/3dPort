@@ -29,6 +29,11 @@ import {
     metube,
     openai,
     siteExtract,
+    Flexibble,
+    graphql,
+    nextjs,
+    firebase,
+    cpp,
   } from "../assets";
   
   export const navLinks = [
@@ -67,12 +72,12 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "GraphQL",
+      icon: graphql,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Next JS",
+      icon: nextjs,
     },
     {
       name: "JavaScript",
@@ -87,11 +92,11 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Firebase",
+      icon: firebase,
     },
     {
-      name: "Tailwind CSS",
+      name: "SQL",
       icon: tailwind,
     },
     {
@@ -103,8 +108,8 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "C++",
+      icon: cpp,
     },
     {
       name: "git",
@@ -301,7 +306,45 @@ import {
       live_project_link: "https://site-extractor.vercel.app/"
     },
 
+    {
+      name: "Flexi Projects Organizer and Viewer",
+      description:
+        " Users can organize and view great projects by developers, while providing a platform for showcasing their work and collaborating. ",
+      tags: [
+        {
+          name: "NextJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "GraphQL",
+          color: "text-rose-400",
+        },
+        {
+          name: "Grafbase",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Google Auth",
+          color: "text-indigo-400"
 
+        },{
+        name: "Cloudinary",
+        color: "orange-text-gradient"
+      },
+      {
+        name: "Tailwind CSS",
+        color: "text-emerald-400"
+      }
+
+      ],
+      image: Flexibble,
+      source_code_link: "https://github.com/ZEscanor/dribbc",
+      live_project_link: "https://flexi-flax.vercel.app/"
+    },
   
     
 
