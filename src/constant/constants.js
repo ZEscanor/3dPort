@@ -253,29 +253,29 @@ import {
       live_project_link: "https://e-commerce-web2.vercel.app"
     },
 
-    // {
-    //   name: "MeTube",
-    //   description:
-    //     "A platform that allows users to search and watch videos from their favorite content creators.",
-    //   tags: [
-    //     {
-    //       name: "React",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "Axios",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "Material UI",
-    //       color: "pink-text-gradient",
-    //     },
+    {
+      name: "MeTube",
+      description:
+        "A platform that allows users to search and watch videos from their favorite content creators.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Axios",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Material UI",
+          color: "pink-text-gradient",
+        },
       
-    //   ],
-    //   image: metube,
-    //   source_code_link: "https://github.com/ZEscanor/metube",
-    //   live_project_link: "https://metube-three.vercel.app/"
-    // },
+      ],
+      image: metube,
+      source_code_link: "https://github.com/ZEscanor/metube",
+      live_project_link: "https://metube-three.vercel.app/"
+    },
    
 
    
@@ -320,33 +320,33 @@ import {
       live_project_link: "https://flexi-flax.vercel.app/"
     },
   
-    {
-      name: "Website and Text Summarizer",
-      description:
-        "A website that allows users to summarize text and websites using Open AI",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Chakra UI",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Open AI",
-          color: "text-indigo-400"
+    // {
+    //   name: "Website and Text Summarizer",
+    //   description:
+    //     "A website that allows users to summarize text and websites using Open AI",
+    //   tags: [
+    //     {
+    //       name: "React",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Vite",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Chakra UI",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "Open AI",
+    //       color: "text-indigo-400"
 
-        },
-      ],
-      image: siteExtract,
-      source_code_link: "https://github.com/ZEscanor/SiteExtractor",
-      live_project_link: "https://site-extractor.vercel.app/"
-    },
+    //     },
+    //   ],
+    //   image: siteExtract,
+    //   source_code_link: "https://github.com/ZEscanor/SiteExtractor",
+    //   live_project_link: "https://site-extractor.vercel.app/"
+    // },
     
 
 
