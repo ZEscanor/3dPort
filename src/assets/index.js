@@ -42,6 +42,7 @@ import graphql from './graphql.png';
 import nextjs from './nextjs.png';
 import firebase from './firebaselogo.png'
 import cpp from './c++.png'
+import EntertainMe from './EntertainMe.png';
 export {
   logo,
   backend,
@@ -83,4 +84,5 @@ export {
   nextjs,
   firebase,
   cpp,
+  EntertainMe,
 };

@@ -34,6 +34,7 @@ import {
     nextjs,
     firebase,
     cpp,
+    EntertainMe
   } from "../assets";
   
   export const navLinks = [
@@ -220,6 +221,30 @@ import {
       live_project_link: "https://memoriesmern.vercel.app/posts"
     },
 
+    {
+      name: "Entertain Me App",
+      description:
+        "Find the perfect way to spend time in your city",
+      tags: [
+        {
+          name: "Typescript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Google Maps",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: EntertainMe,
+      source_code_link: "https://github.com/ZEscanor/EntertainMe",
+      live_project_link: "https://entertain-me-beryl.vercel.app/"
+    },
+    
+
     
     
     {
@@ -320,33 +345,6 @@ import {
       live_project_link: "https://flexi-flax.vercel.app/"
     },
   
-    // {
-    //   name: "Website and Text Summarizer",
-    //   description:
-    //     "A website that allows users to summarize text and websites using Open AI",
-    //   tags: [
-    //     {
-    //       name: "React",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "Vite",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "Chakra UI",
-    //       color: "pink-text-gradient",
-    //     },
-    //     {
-    //       name: "Open AI",
-    //       color: "text-indigo-400"
-
-    //     },
-    //   ],
-    //   image: siteExtract,
-    //   source_code_link: "https://github.com/ZEscanor/SiteExtractor",
-    //   live_project_link: "https://site-extractor.vercel.app/"
-    // },
     
 
 
