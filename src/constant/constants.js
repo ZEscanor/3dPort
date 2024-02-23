@@ -305,45 +305,6 @@ import {
 
    
 
-    {
-      name: "Flexi Projects Organizer and Viewer",
-      description:
-        " Users can organize and view great projects by developers, while providing a platform for showcasing their work and collaborating. ",
-      tags: [
-        {
-          name: "NextJS",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "TypeScript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "GraphQL",
-          color: "text-rose-400",
-        },
-        {
-          name: "Grafbase",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Google Auth",
-          color: "text-indigo-400"
-
-        },{
-        name: "Cloudinary",
-        color: "orange-text-gradient"
-      },
-      {
-        name: "Tailwind CSS",
-        color: "text-emerald-400"
-      }
-
-      ],
-      image: Flexibble,
-      source_code_link: "https://github.com/ZEscanor/dribbc",
-      live_project_link: "https://flexi-flax.vercel.app/"
-    },
   
     
 
